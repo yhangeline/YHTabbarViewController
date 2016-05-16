@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8EB249A1CE99CF80029E651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB24991CE99CF80029E651 /* main.m */; };
+		F8EB249D1CE99CF80029E651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB249C1CE99CF80029E651 /* AppDelegate.m */; };
+		F8EB24B31CE99EFF0029E651 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EB24B21CE99EFF0029E651 /* Images.xcassets */; };
+		F8EB24B61CE9A0190029E651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EB24B41CE9A0190029E651 /* LaunchScreen.storyboard */; };
+		F8EB24BF1CE9C9910029E651 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB24BE1CE9C9910029E651 /* TestViewController.m */; };
+		F8EB24C71CE9CC1D0029E651 /* YHTabar.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB24C21CE9CC1D0029E651 /* YHTabar.m */; };
+		F8EB24C81CE9CC1D0029E651 /* YHTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB24C41CE9CC1D0029E651 /* YHTabbarController.m */; };
+		F8EB24C91CE9CC1D0029E651 /* YHTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EB24C61CE9CC1D0029E651 /* YHTabbarItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8EB24951CE99CF80029E651 /* YHTabbarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHTabbarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EB24991CE99CF80029E651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8EB249B1CE99CF80029E651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8EB249C1CE99CF80029E651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8EB24A91CE99CF80029E651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EB24B21CE99EFF0029E651 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8EB24B51CE9A0190029E651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8EB24BD1CE9C9910029E651 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		F8EB24BE1CE9C9910029E651 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		F8EB24C11CE9CC1D0029E651 /* YHTabar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTabar.h; sourceTree = "<group>"; };
+		F8EB24C21CE9CC1D0029E651 /* YHTabar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTabar.m; sourceTree = "<group>"; };
+		F8EB24C31CE9CC1D0029E651 /* YHTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTabbarController.h; sourceTree = "<group>"; };
+		F8EB24C41CE9CC1D0029E651 /* YHTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTabbarController.m; sourceTree = "<group>"; };
+		F8EB24C51CE9CC1D0029E651 /* YHTabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTabbarItem.h; sourceTree = "<group>"; };
+		F8EB24C61CE9CC1D0029E651 /* YHTabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTabbarItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8EB24921CE99CF80029E651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8EB248C1CE99CF80029E651 = {
+			isa = PBXGroup;
+			children = (
+				F8EB24971CE99CF80029E651 /* YHTabbarViewController */,
+				F8EB24961CE99CF80029E651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8EB24961CE99CF80029E651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8EB24951CE99CF80029E651 /* YHTabbarViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8EB24971CE99CF80029E651 /* YHTabbarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F8EB24C01CE9CC1D0029E651 /* YHTabbarController */,
+				F8EB249B1CE99CF80029E651 /* AppDelegate.h */,
+				F8EB249C1CE99CF80029E651 /* AppDelegate.m */,
+				F8EB24BD1CE9C9910029E651 /* TestViewController.h */,
+				F8EB24BE1CE9C9910029E651 /* TestViewController.m */,
+				F8EB24A91CE99CF80029E651 /* Info.plist */,
+				F8EB24B21CE99EFF0029E651 /* Images.xcassets */,
+				F8EB24B41CE9A0190029E651 /* LaunchScreen.storyboard */,
+				F8EB24981CE99CF80029E651 /* Supporting Files */,
+			);
+			path = YHTabbarViewController;
+			sourceTree = "<group>";
+		};
+		F8EB24981CE99CF80029E651 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8EB24991CE99CF80029E651 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8EB24C01CE9CC1D0029E651 /* YHTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				F8EB24C11CE9CC1D0029E651 /* YHTabar.h */,
+				F8EB24C21CE9CC1D0029E651 /* YHTabar.m */,
+				F8EB24C31CE9CC1D0029E651 /* YHTabbarController.h */,
+				F8EB24C41CE9CC1D0029E651 /* YHTabbarController.m */,
+				F8EB24C51CE9CC1D0029E651 /* YHTabbarItem.h */,
+				F8EB24C61CE9CC1D0029E651 /* YHTabbarItem.m */,
+			);
+			path = YHTabbarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8EB24941CE99CF80029E651 /* YHTabbarViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8EB24AC1CE99CF80029E651 /* Build configuration list for PBXNativeTarget "YHTabbarViewController" */;
+			buildPhases = (
+				F8EB24911CE99CF80029E651 /* Sources */,
+				F8EB24921CE99CF80029E651 /* Frameworks */,
+				F8EB24931CE99CF80029E651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHTabbarViewController;
+			productName = YHTabbarViewController;
+			productReference = F8EB24951CE99CF80029E651 /* YHTabbarViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8EB248D1CE99CF80029E651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yh;
+				TargetAttributes = {
+					F8EB24941CE99CF80029E651 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F8EB24901CE99CF80029E651 /* Build configuration list for PBXProject "YHTabbarViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8EB248C1CE99CF80029E651;
+			productRefGroup = F8EB24961CE99CF80029E651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8EB24941CE99CF80029E651 /* YHTabbarViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8EB24931CE99CF80029E651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EB24B31CE99EFF0029E651 /* Images.xcassets in Resources */,
+				F8EB24B61CE9A0190029E651 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8EB24911CE99CF80029E651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EB24BF1CE9C9910029E651 /* TestViewController.m in Sources */,
+				F8EB249D1CE99CF80029E651 /* AppDelegate.m in Sources */,
+				F8EB249A1CE99CF80029E651 /* main.m in Sources */,
+				F8EB24C91CE9CC1D0029E651 /* YHTabbarItem.m in Sources */,
+				F8EB24C81CE9CC1D0029E651 /* YHTabbarController.m in Sources */,
+				F8EB24C71CE9CC1D0029E651 /* YHTabar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8EB24B41CE9A0190029E651 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8EB24B51CE9A0190029E651 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8EB24AA1CE99CF80029E651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8EB24AB1CE99CF80029E651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8EB24AD1CE99CF80029E651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHTabbarViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yh.YHTabbarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8EB24AE1CE99CF80029E651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHTabbarViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yh.YHTabbarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8EB24901CE99CF80029E651 /* Build configuration list for PBXProject "YHTabbarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EB24AA1CE99CF80029E651 /* Debug */,
+				F8EB24AB1CE99CF80029E651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8EB24AC1CE99CF80029E651 /* Build configuration list for PBXNativeTarget "YHTabbarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EB24AD1CE99CF80029E651 /* Debug */,
+				F8EB24AE1CE99CF80029E651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8EB248D1CE99CF80029E651 /* Project object */;
+}
