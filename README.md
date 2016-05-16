@@ -1,4 +1,4 @@
-![gif](11.png)
+<img src="./11.png" width = "320" height = "480" alt="例图" align=center />
 
 #自定义tabbar
 
